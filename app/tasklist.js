@@ -21,14 +21,14 @@ if(Meteor.isClient) {
       return false;
     },
 
-    // "click .delete-task": function (event) {
-    //
-    //   if(confirm('Delete Task?')) {
-    //     Tasks.remove(this._id);
-    //   }
-    //
-    //   return false;
-    // }
+    "click .delete-task": function (event) {
+
+      if(confirm('Delete Task?')) {
+        Tasks.remove(this._id);
+      }
+
+      return false;
+    }
 
   })
 
